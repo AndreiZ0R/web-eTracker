@@ -11,6 +11,7 @@ import "./App.css";
 const App = () => {
 
     return (
+
         <div className="background">
             <div className="second_background">
                 <div className="center">                <div >  <AppButton name="Sign up"></AppButton></div>

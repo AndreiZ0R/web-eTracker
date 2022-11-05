@@ -1,29 +1,25 @@
 import React from 'react';
-import Btn from './components_react/test.jsx';
+import AppButton from './components_react/AppButton/AppButton.jsx';
+import NavBar from './components_react/NavBar/NavBar.jsx';
 import "./App.css";
-import { useEffect, useState } from 'react';
+import 'bulma/css/bulma.min.css';
+// import { useEffect, useState } from 'react';
 
 
 const App = () => {
-    return (
-        <div className="box">
-            <nav>
-                <NavLink to='/Create a account'>
-                    Sign In
-                </NavLink>
-                <NavLink to='Sign in as Admin'>
-                    Sign in as Admin
-                </NavLink>
-                <Navlink to='Sign in as Employee'>
-                    Sign in as Employee
-                </Navlink>
-                <NavLink to='About us'>
-                    About us
-                </NavLink>
+    // return (
+    //     <AppButton name="Sign-In" onClick={() =>
+    //         alert("Clicked")
+    //     }>
+    //     </AppButton>
+    // );
+   return (<>
+           <NavBar>
+           </NavBar>
+       </>
 
-            </nav>
-        </div>
-    );
+   );
+
 };
 
 export default App;

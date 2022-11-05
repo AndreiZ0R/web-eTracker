@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.HomePageButton{
+    background: #FF1B6B;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    border-radius: 999px;
+    box-shadow: #FF1B6B 0 10px 20px -10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border: 0;
+}
+

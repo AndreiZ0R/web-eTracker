@@ -1,11 +1,20 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
+import {useEffect, useState} from 'react';
 
-const Btn = () => {
+const Btn = (props) => {
+    function print () {
+        return props.name + props.age
+    }
     return (
-        <button>
-            click
-        </button>
+        <div>
+            <button>
+                {
+                    print()
+                }
+            </button>
+
+        </div>
+
     );
 }
 

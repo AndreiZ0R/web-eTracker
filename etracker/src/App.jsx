@@ -1,5 +1,4 @@
 import React from 'react';
-
 import AppButton from './components_react/AppButton/AppButton.jsx';
 import "./components_react/Background.css"
 import "./components_react/Second_background.css";
@@ -8,25 +7,13 @@ import "./App.css";
 import 'bulma/css/bulma.min.css';
 // import { useEffect, useState } from 'react';
 
-import "./App.css";
-import "./components_react/Background.css";
-import "./components_react/Second_background.css";
-
-
-
 
 const App = () => {
     return (
-
         <div className="background">
             <div className="second_background">
             </div>
         </div>
-
-      <div className="background">
-          <div className="second_background">
-          </div>
-      </div>
     );
 };
 

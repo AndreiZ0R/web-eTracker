@@ -4,7 +4,7 @@
     border-radius: 130px;
     /*margin: 40px 80px;*/
     /*display: grid;*/
-
+    text-align: center;
     background: rgb(244,244,244);
     background: radial-gradient(circle, rgba(244,244,244,1) 0%, rgba(237,241,252,1) 100%);
 }

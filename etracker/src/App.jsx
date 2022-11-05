@@ -9,9 +9,15 @@ import "./App.css";
 
 
 const App = () => {
+
     return (
         <div className="background">
             <div className="second_background">
+                <div className="center">                <div >  <AppButton name="Sign up"></AppButton></div>
+                <div >  <AppButton name="Admin"></AppButton></div>
+                <div >  <AppButton name="Employee"></AppButton></div></div>
+
+
             </div>
         </div>
     );

@@ -1,6 +1,5 @@
 import React from 'react';
 import "./AppButton.css";
-import 'bulma/css/bulma.min.css';
 
 
 const AppButton = (props) => {

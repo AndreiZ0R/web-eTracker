@@ -33,7 +33,7 @@ const Home = () => {
                             <Link  style={{textDecoration: 'none',color:"white"}} to="/Admin" >Admin</Link>
                         </AppButton></div>
                         <div><AppButton myClass="buttonLogin" name="Employee"> <Link  style={{textDecoration: 'none',color:"white"}}
-                            to="/Employee">Employee</Link>
+                                                                                      to="/Employee">Employee</Link>
                         </AppButton>
                         </div>
 

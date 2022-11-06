@@ -9,7 +9,7 @@ import Home from "./Home";
 import SignUp from "./components_react/SignUp";
 import Admin from "./components_react/Admin";
 import Employee from "./components_react/Employee";
-
+import NewEmployee from "./components_react/NewEmployee";
 const router = createBrowserRouter([
     {
         path : "/signup",
@@ -24,9 +24,14 @@ const router = createBrowserRouter([
         element: <Employee/>
     },
     {
+        path :"/newemployee",
+        element: <NewEmployee/>
+    },
+    {
         path :"/",
         element: <Home/>
     }
+
 
 
 ]);

@@ -4,6 +4,8 @@ import "./Dashboard.css"
 import "./Second_background_sign_up.css";
 import "./AppButton/AppButton"
 import "./Admin.css";
+import AppButton from "./AppButton/AppButton";
+import {Link} from "react-router-dom";
 const Admin= ()=>{
 
         return (
@@ -13,18 +15,16 @@ const Admin= ()=>{
                     <div className="dashboard">
                         <div  >
                             <h1 className="AdminName">Popa Alexandru</h1></div>
+                        <div><AppButton myClass="Admin1"
+                                        name="NewEmployee" >
+                            <Link  style={{textDecoration: 'none',color:"white"}} to="/NewEmployee" >Add new employee</Link>
+                        </AppButton></div>
 
-                    </div>
 
-                <div className="AdminName"></div>
-
-
-                    <div className="dashboard"></div>
-                </div>
-                <div className="AdminName">
-
-                </div>
+                    </div></div>
             </div>
+
+
         );
 }
 export default Admin;

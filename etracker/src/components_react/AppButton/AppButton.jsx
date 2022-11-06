@@ -6,7 +6,7 @@ const AppButton = (props) => {
     return (
         <button className={props.myClass} onClick={props.onClick}>
             {
-                props.name
+                props.children
             }
         </button>
     );

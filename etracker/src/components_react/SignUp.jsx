@@ -1,13 +1,13 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
 import "./SignUp.css";
-import "./components_react/Background.css"
-import "./components_react/second_background_sign_up.css";
+import "./Background.css"
+import "./Second_background_sign_up.css";
 import FormInput from "./FormInput";
 
 
 const SignUp = () => {
     // const [username,setUsername] = userState("")
-    const usernameRef = useRef()
+    // const usernameRef = useRef()
 
     const [values, setValues] = useState({
         username: "",
@@ -25,7 +25,6 @@ const SignUp = () => {
             placeholder: "Username",
             errorMessage:
                 "Username should be 3-16 characters and shouldn't include any special character!",
-            label: "Username",
             pattern: "^[A-Za-z0-9]{3,16}$",
             required: true,
         },
@@ -37,7 +36,6 @@ const SignUp = () => {
             placeholder: "Password",
             errorMessage:
                 "Password should be 8-20 characters and include at least 1 letter, 1 number and 1 special character!",
-            label: "Password",
             pattern: `^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$`,
             required: true,
         },
@@ -48,7 +46,6 @@ const SignUp = () => {
             type: "password",
             placeholder: "Confirm Password",
             errorMessage: "Passwords don't match!",
-            label: "Confirm Password",
             pattern: values.password,
             required: true,
         },
@@ -57,8 +54,7 @@ const SignUp = () => {
             id: 4,
             name: "company name",
             type: "text",
-            placeholder: "company name",
-            label: "Company name",
+            placeholder: "Company name",
             required: true,
         },
 
@@ -68,35 +64,31 @@ const SignUp = () => {
             type: "email",
             placeholder: "Company Email",
             errorMessage: "It should be a valid email addres!",
-            label: "Company email",
             required: true,
         },
 
         {
             id: 6,
-            name: "first name",
+            name: "First name",
             type: "text",
-            placeholder: "first name",
-            label: "First name",
+            placeholder: "First name",
             required: true,
         },
 
         {
             id: 7,
-            name: "last name",
+            name: "Last name",
             type: "text",
-            placeholder: "last name",
-            label: "Last name",
+            placeholder: "Last name",
             required: true,
         },
 
         {
             id: 8,
-            name: "company adress",
+            name: "Company adress",
             type: "text",
-            placeholder: "company adress",
+            placeholder: "Company adress",
             errorMessage: "It should be a valid adress",
-            label: "Company adress",
             required: true,
         },
 

@@ -4,7 +4,7 @@ import "./AppButton.css";
 
 const AppButton = (props) => {
     return (
-        <button className="HomePageButton" onClick={props.onClick}>
+        <button className="HomePageButton" {...props} onClick={props.onClick}>
             {
                 props.name
             }

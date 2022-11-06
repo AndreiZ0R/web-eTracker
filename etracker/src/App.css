@@ -1,9 +1,99 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 .center {
     position: absolute;
-    left: 50%;
+    right: 23%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+
+
+    padding: 10px;
+}
+.center1{
+    padding-bottom: 90px;
+    width: 100%;
+
+}
+.buttonLogin{
+
+    background: linear-gradient(90deg, rgba(73,138,201,1) 0%, rgba(96,201,230,1) 100%);
+    margin-bottom: 40px;
+    justify-content: center;
+    border-radius: 999px;
+
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    width: 300%;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 18px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border: 0;
+}
+
+.bluebox{
+    position: absolute;
+    left: 75%;
+    border-radius: 110px;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background: rgb(73,138,201);
+    background: linear-gradient(90deg, rgba(73,138,201,1) 0%, rgba(96,201,230,1) 100%);
+    width: 35%;
+    height: 55%;
+}
+.whitebox{
+    position: absolute;
+    left: 75%;
+    border-radius: 110px;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    width: 35%;
+    height: 45%;
+}
+.smallwhitebox{
+    position: absolute;
+    left: 83.8%;
+    border-radius: 0 110px 110px 110px ;
+    top: 34.9%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    width: 17.5%;
+    height: 45%;
+}
+.shadow{
+    box-shadow: lightgray 0 30px 20px -10px;
+}
+.imagine{
+    position: absolute;
+    left: 25%;
     top: 50%;
     transform: translate(-50%, -50%);
 
-    padding: 10px;
+}
+.login{
+
+
+    justify-content: center;
+    border-radius: 999px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    width: 30%;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 30px 60px;
+
+
+    border: 0;
 }

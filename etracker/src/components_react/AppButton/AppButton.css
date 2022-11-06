@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 
 .HomePageButton{
-    background: #FF1B6B;
+    background: #922C89;
     margin-bottom: 40px;
     justify-content: center;
     border-radius: 999px;
-    box-shadow: #FF1B6B 0 10px 20px -10px;
-    box-sizing: content-box;
+    box-shadow: rebeccapurple 0 10px 20px -10px;
     cursor: pointer;
     font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-size: 25px;
     text-align: center;
     color: white;
-    width: 110%;
+    width: 300%;
     font-weight: 700;
     line-height: 24px;
     opacity: 1;

@@ -6,7 +6,7 @@ import "./components_react/Second_background.css";
 import "./App.css";
 
 // import { useEffect, useState } from 'react';
-
+import "./components_react/AppButton/AppButton.css"
 
 const App = () => {
 
@@ -23,10 +23,14 @@ const App = () => {
                 </div>
                 <div className="center">
                     <div className="center1">
-                        <div >  <AppButton class="buttonLogin" name="Admin"></AppButton></div>
-                        <div >  <AppButton class="buttonLogin" name="Employee"></AppButton></div>
+                        <div >  <AppButton myClass="buttonLogin" onClick={()=>{
+                            console.log("clicked");
+                        }} name="Admin"></AppButton></div>
+                        <div >  <AppButton myClass="buttonLogin" onClick={()=>alert("mama")} name="Employee"></AppButton></div>
                     </div>
-                    <div >  <AppButton name="Sing up"></AppButton></div></div>
+                    <div >  <AppButton myClass="HomePageButton"  onClick={()=>{
+                        console.log("clicked sign up");
+                    }} name="Sign up"></AppButton></div></div>
                 <div className="imagine">
                     <img src="logo.png" />
                 </div>

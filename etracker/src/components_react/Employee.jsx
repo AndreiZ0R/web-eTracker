@@ -6,7 +6,8 @@ const Employee =()=>{
     return(
         <div className="background">
             <div className="second_background">
-               <div className="bluebox1"></div>
+               <sdiv className="bluebox1"></sdiv>
+                <div c></div>
             </div>
         </div>
     )

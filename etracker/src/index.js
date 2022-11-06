@@ -8,6 +8,7 @@ import {
 import Home from "./Home";
 import SignUp from "./components_react/SignUp";
 import Admin from "./components_react/Admin";
+import Employee from "./components_react/Employee";
 
 const router = createBrowserRouter([
     {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
     {
         path: "/admin",
         element: <Admin/>
+    },
+    {
+        path: "/employee",
+        element: <Employee/>
     },
     {
         path :"/",

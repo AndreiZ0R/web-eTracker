@@ -1,0 +1,13 @@
+.bluebox1{
+    position: absolute;
+    right: 52%;
+    border-radius: 90px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(73,138,201);
+    background: linear-gradient(90deg, rgba(73,138,201,1) 0%, rgba(96,201,230,1) 100%);
+    width: 28%;
+    height: 80%;
+    padding: 10px 10px 10px 10px;
+
+}

@@ -30,9 +30,9 @@ const Home = () => {
                     <div className="center1">
                         <div><AppButton myClass="buttonLogin"
                                         name="Admin" >
-                            <Link to="/Admin">Admin</Link>
+                            <Link  style={{textDecoration: 'none',color:"white"}} to="/Admin" >Admin</Link>
                         </AppButton></div>
-                        <div><AppButton myClass="buttonLogin" name="Employee"> <Link
+                        <div><AppButton myClass="buttonLogin" name="Employee"> <Link  style={{textDecoration: 'none',color:"white"}}
                             to="/Employee">Employee</Link>
                         </AppButton>
                         </div>
@@ -42,7 +42,7 @@ const Home = () => {
                         <AppButton myClass="HomePageButton" onClick={() => {
                             console.log("clicked sign up");
                         }} name="Sign up">
-                            <Link to="/SignUp">SignUp</Link>
+                            <Link  style={{textDecoration: 'none',color:"white"}} to="/SignUp">SignUp</Link>
                         </AppButton></div>
                 </div>
                 <div className="imagine">

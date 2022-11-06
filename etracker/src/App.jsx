@@ -4,9 +4,10 @@ import "./components_react/Background.css"
 import "./components_react/Second_background.css";
 
 import "./App.css";
-
+import Admin    from "./components_react/Admin"; "./components_react/Admin";
 // import { useEffect, useState } from 'react';
 import "./components_react/AppButton/AppButton.css"
+import {BrowserRouter as Router,Switch, Route,Link} from "react-router-dom";
 
 const App = () => {
 
@@ -23,10 +24,9 @@ const App = () => {
                 </div>
                 <div className="center">
                     <div className="center1">
-                        <div >  <AppButton myClass="buttonLogin" onClick={()=>{
-                            console.log("clicked");
-                        }} name="Admin"></AppButton></div>
+                    <Router>   <div >  <AppButton myClass="buttonLogin" onClick={()=>alert("mama") } name="Admin"></AppButton></div></Router>
                         <div >  <AppButton myClass="buttonLogin" onClick={()=>alert("mama")} name="Employee"></AppButton></div>
+
                     </div>
                     <div >  <AppButton myClass="HomePageButton"  onClick={()=>{
                         console.log("clicked sign up");

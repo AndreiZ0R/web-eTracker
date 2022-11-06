@@ -9,6 +9,7 @@ const Admin= ()=>{
         return (
             <div className="background">
                 <div className="second_background">
+
                     <div className="dashboard">
                         <div  >
                             <h1 className="AdminName">Popa Alexandru</h1></div>
@@ -16,6 +17,11 @@ const Admin= ()=>{
                     </div>
 
                 <div className="AdminName"></div>
+
+
+                    <div className="dashboard"></div>
+                </div>
+                <div className="AdminName">
 
                 </div>
             </div>

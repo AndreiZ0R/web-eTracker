@@ -1,0 +1,14 @@
+.dashboard{
+    position: absolute;
+    right: 52%;
+    border-radius: 90px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(113,226,215);
+    background: linear-gradient(90deg, rgba(113,226,215,1) 0%, rgba(191,254,248,1) 100%);
+    width: 28%;
+    height: 80%;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid paleturquoise;
+    box-shadow: lightgrey 0 30px 20px -10px;
+}

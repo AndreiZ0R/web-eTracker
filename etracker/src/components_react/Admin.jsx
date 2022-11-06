@@ -8,23 +8,23 @@ import AppButton from "./AppButton/AppButton";
 import {Link} from "react-router-dom";
 const Admin= ()=>{
 
-        return (
-            <div className="background">
-                <div className="second_background">
+    return (
+        <div className="background">
+            <div className="second_background">
 
-                    <div className="dashboard">
-                        <div  >
-                            <h1 className="AdminName">Popa Alexandru</h1></div>
-                        <div><AppButton myClass="Admin1"
-                                        name="NewEmployee" >
-                            <Link  style={{textDecoration: 'none',color:"white"}} to="/NewEmployee" >Add new employee</Link>
-                        </AppButton></div>
-
-
-                    </div></div>
-            </div>
+                <div className="dashboard">
+                    <div  >
+                        <h1 className="AdminName">Popa Alexandru</h1></div>
+                    <div><AppButton myClass="Admin1"
+                                    name="NewEmployee" >
+                        <Link  style={{textDecoration: 'none',color:"white"}} to="/NewEmployee" >Add new employee</Link>
+                    </AppButton></div>
 
 
-        );
+                </div></div>
+        </div>
+
+
+    );
 }
 export default Admin;

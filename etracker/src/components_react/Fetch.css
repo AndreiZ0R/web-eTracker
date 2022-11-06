@@ -1,0 +1,9 @@
+.Fetch{
+    position: absolute;
+    top:60%;
+    right:4.5%;
+    border-radius: 110px;
+    width: 90%;
+    background: -webkit-linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
+    background: linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
+}

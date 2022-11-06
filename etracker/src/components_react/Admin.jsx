@@ -14,12 +14,14 @@ const Admin= ()=>{
 
                 <div className="dashboard">
                     <div  >
-                        <h1 className="AdminName">Popa Alexandru</h1></div>
+                        <h1 className="AdminName">Hi, Popa Alexandru</h1></div>
                     <div><AppButton myClass="Admin1"
                                     name="NewEmployee" >
                         <Link  style={{textDecoration: 'none',color:"white"}} to="/NewEmployee" >Add new employee</Link>
                     </AppButton></div>
-
+                    <div className="imagine1">
+                        <img src="admin.png"/>
+                    </div>
 
                 </div></div>
         </div>

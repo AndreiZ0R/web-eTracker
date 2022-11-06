@@ -1,7 +1,7 @@
 
 .AdminName {
  position: absolute;
- left:13%;
+ left:8%;
  top:10%;
  align-items: center;
 
@@ -14,4 +14,20 @@ right:4.5%;
  width: 90%;
  background: -webkit-linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
  background: linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
+}
+.Admin2{
+ position: absolute;
+ top:30%;
+ right:4.5%;
+ border-radius: 110px;
+ width: 90%;
+ background: -webkit-linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
+ background: linear-gradient(to right, #a6ffcb, #12d8fa, #1fa2ff);
+}
+.imagine1{
+ position: absolute;
+ right: -250%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+border-radius: 100px;
 }

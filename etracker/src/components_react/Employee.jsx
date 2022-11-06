@@ -13,13 +13,17 @@ const Employee =()=>{
 
                 <div className="dashboard">
                     <div  >
-                        <h1 className="AdminName">Popa Alexandru</h1>
-                            <h2 className="AdminName">My Raports</h2>
+                        <h1 className="AdminName">Hi, Popa Alexandru</h1>
+                            <h2 className="Admin2">My Raports</h2>
                     </div>
 
 
+                    <div className="imagine1">
+                        <img src="admin.png"/>
+                    </div>
+                </div>
 
-                </div></div>
+            </div>
         </div>
 
 

@@ -4,8 +4,8 @@
     border-radius: 90px;
     top: 50%;
     transform: translate(-50%, -50%);
-    background: rgb(113,226,215);
-    background: linear-gradient(90deg, rgba(113,226,215,1) 0%, rgba(191,254,248,1) 100%);
+    background: rgb(255,27,107);
+    background: linear-gradient(90deg, rgba(255,27,107,1) 0%, rgba(252,121,216,1) 100%);
     width: 28%;
     height: 80%;
     padding: 10px 10px 10px 10px;

@@ -9,11 +9,8 @@ const Admin= ()=>{
             <div className="background">
                 <div className="second_background">
                     <div className="dashboard"></div>
-                    <div className="AdminName">
-                        <h2>hi</h2>
-                    </div>
-
-
+                </div>
+                <div className="AdminName">
                 </div>
             </div>
         );

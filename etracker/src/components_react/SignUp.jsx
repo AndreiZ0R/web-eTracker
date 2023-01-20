@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, {useState} from 'react';
 import "./SignUp.css";
 import "./Background.css"
 import "./Second_background_sign_up.css";

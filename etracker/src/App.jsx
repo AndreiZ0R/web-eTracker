@@ -1,4 +1,3 @@
-import React from 'react';
 import "./components_react/Background.css"
 import "./components_react/Second_background.css";
 
@@ -6,7 +5,9 @@ import "./App.css";
 
 import "./components_react/AppButton/AppButton.css"
 const App = () => {
-    return
+    return(
+        <div>fff</div>
+    );
 
     // return <Router>
     //         <Switch>

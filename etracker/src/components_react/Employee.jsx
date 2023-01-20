@@ -4,8 +4,6 @@ import "./Dashboard.css"
 import "./Second_background_sign_up.css";
 import "./AppButton/AppButton"
 import "./Admin.css";
-import AppButton from "./AppButton/AppButton";
-import {Link} from "react-router-dom";
 const Employee =()=>{
     return (
         <div className="background">

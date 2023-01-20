@@ -1,4 +1,3 @@
-import React, {useRef, useState} from 'react';
 import "./LoginAdmin.css";
 import React, { useState } from "react";
 import "./styles.css";
@@ -29,7 +28,7 @@ function LoginAdmin() {
         //Prevent page reload
         event.preventDefault();
 
-        var { uname, pass } = document.forms[0];
+        const {uname, pass} = document.forms[0];
 
         // Find user login info
         const userData = database.find((user) => user.username === uname.value);

@@ -4,19 +4,13 @@ import "./components_react/Background.css"
 import "./components_react/Second_background.css";
 
 import "./App.css";
-import Admin from "./components_react/Admin";
 
 // import { useEffect, useState } from 'react';
 import "./components_react/AppButton/AppButton.css"
-import {Button, colors} from "@mui/material";
 import {Link} from "react-router-dom"
-import { css } from '@emotion/react'
-import styled from '@emotion/styled'
 
 
-const Home = () => {
-
-    return (
+const Home = () => (
         <div className="background">
             <div className="second_background">
                 <div className="bluebox">
@@ -52,6 +46,5 @@ const Home = () => {
             </div>
         </div>
     );
-}
 
 export default Home;
